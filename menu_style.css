@@ -1,0 +1,30 @@
+#bar {
+  margin: 0.5rem;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  width: 0rem;
+  align-items: left;
+  font-family: sans-serif;
+}
+#header {
+  padding: 2px;
+  background-color: black;
+}
+.link {
+  font-family: Nunito;
+  color: white;
+  font-size: 21px;
+}
+
+.link:hover {
+  font-weight: bolder;
+  color: #d894e2;
+}
+.table {
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}

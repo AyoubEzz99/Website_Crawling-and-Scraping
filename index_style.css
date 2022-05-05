@@ -1,0 +1,67 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.Header {
+  height: 100vh;
+  background-image: url(images/Background3.jfif);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px black;
+
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+}
+
+.header {
+  padding: 1px;
+  background-color: black;
+}
+
+#bar {
+  margin: 0.5rem;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  width: 0rem;
+  align-items: left;
+  font-family: sans-serif;
+}
+.link {
+  font-family: Nunito;
+  color: white;
+  font-size: 21px;
+}
+
+.link:hover {
+  font-weight: bolder;
+  color: #d894e2;
+}
+.Search-engine {
+  height: 20px;
+  width: 400px;
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+  font-family: sans-serif;
+}
+.seach-button {
+  height: 40px;
+  width: 80px;
+  margin-bottom: 2px;
+  border-radius: 25px;
+  background: greenyellow;
+  font-family: sans-serif;
+}
